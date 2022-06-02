@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
                     <li><a href="#gallery">gallery</a></li>
                     <li><a href="#work">work</a></li>
                     <li><a href="#pricing">pricing</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,6 +54,11 @@
 
     <section id="intro" class="white-bg section">
         <div class="main-content top3-content">
+            <div class="intro-img">
+                <img src="assets/img/undraw_programmer_re_owql.svg"
+                    alt="Programadora de votla tomando café">
+            </div>
+
             <h2>News</h2>
             <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
                 some
@@ -187,35 +192,86 @@
                             <th>title 1</th>
                             <th>title 2</th>
                             <th>title 3</th>
+                            <th>title 4</th>
+                            <th>title 5</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Content 4</td>
-                            <td>Content 5</td>
-                            <td>Content 6</td>
-                        </tr>
-                        <tr>
-                            <td>Content 7</td>
-                            <td>Content 8</td>
-                            <td>Content 9</td>
-                        </tr>
-                        <tr>
                             <td>Content 1</td>
                             <td>Content 2</td>
                             <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 6</td>
+                            <td>Content 7</td>
+                            <td>Content 8</td>
+                            <td>Content 9</td>
+                            <td>Content 10</td>
+                        </tr>
+                        <tr>
+                            <td>Content 11</td>
+                            <td>Content 12</td>
+                            <td>Content 13</td>
+                            <td>Content 14</td>
+                            <td>Content 15</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
                             <td></td>
                             <td></td>
-                            <td>T foot</td>
+                            <td></td>
+                            <td></td>
+                            <td>tfoot</td>
                         </tr>
                     </tfoot>
                 </table>
             </div>
         </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>CONTACT WITH ME</h2>
+                <p>You can send a e-mail to me and asking whatever do you whant to know, i will be glad in giving the answers about my job's and carrer!</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/undraw_subscribe_vspl.svg"
+                    alt="Mulher de pé ao lado de um símbolo de email gigante">
+            </div>
+            
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea >
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+   
     </section>
 
 </body>

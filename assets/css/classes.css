@@ -29,3 +29,7 @@ body .full-width {
     flex: 1 1 100%
 }
 
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
