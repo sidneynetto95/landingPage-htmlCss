@@ -2,6 +2,7 @@
     --primary-color: #0A1128;
     --white-color: #FFFF;
     --light-gray-color: rgb(202, 199, 199);
-    --gap: 8rem;
+    --gap: 6rem;
+    --gapForms: 2rem; 
     --secondary-color: crimson;
 }
