@@ -260,4 +260,7 @@
     .menu-spacing {
      display: none;
     }
+    h2 {
+        font-size: 3.5rem;
+    }
 }
